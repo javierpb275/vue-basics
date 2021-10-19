@@ -1,1 +1,7 @@
-Vue.createApp({}).mount("#app");
+Vue.createApp({
+  data() {
+    return {
+      firstName: "john",
+    };
+  },
+}).mount("#app");
