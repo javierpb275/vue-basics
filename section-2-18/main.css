@@ -33,9 +33,12 @@ input[type="number"] {
   background-color: #767dea;
 }
 /*-----------------*/
+
+/*classes text-black and text-orange:*/
 .text-black {
   color: #424242;
 }
 .text-orange {
   color: #ffc26f;
 }
+/*-----------------*/
