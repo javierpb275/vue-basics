@@ -7,9 +7,9 @@
 
   <body>
     <div id="app">
-      <label> <input type="checkbox" /> Purple </label>
+      <label> <input type="checkbox" v-model="isPurple"/> Purple </label>
 
-      <div class="circle">Hi!</div>
+      <div class="circle" :class="{purple: isPurple}">Hi!</div>
     </div>
 
     <script src="https://unpkg.com/vue@next"></script>
