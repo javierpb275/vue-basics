@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>VueJS Course</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
 
-<head>
-  <title>VueJS Course</title>
-  <link rel="stylesheet" type="text/css" href="main.css" />
-</head>
+  <body>
+    <div id="app">
+      {{ message }}
 
-<body>
-  <div id="app">
-    {{ message }}
-  </div>
+      <button
+        type="button"
+        class="changeMessage"
+        @click="changeMessage('pepe')"
+      >
+        change message
+      </button>
+    </div>
 
-  <script src="https://unpkg.com/vue@next"></script>
-  <script src="app.js"></script>
-</body>
-
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
